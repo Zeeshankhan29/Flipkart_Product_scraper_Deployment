@@ -6,4 +6,6 @@ Where do you think we get the Data from?? Here comes the Web Scraping..
 Using the Python skills I have designed a Project where you could get the information of the Product from Multiple pages in Flipkart website and can be stored to Analyse further.
 
 FurtherMore the Html pages are been linked to my code.
-Ultimately the code is Deployed to Heroku Cloud platform so that anyone could access my work.
+Ultimately the code is Deployed to Heroku Cloud platform so that anyone could access my work with the Url mentioned below.
+
+https://flipkartproductscraper.herokuapp.com/
