@@ -31,7 +31,7 @@ def index():
 
         for i in range(1, No_of_pages+1, 1):
             url = 'https://www.flipkart.com/search?q='
-            flipkart_page = requests.get(url + search + "&page" + str(i))
+            flipkart_page = requests.get(url+search+"&page"+str(i)+"=&page="+str(i))
             flipkart_html = bs(flipkart_page.text, 'html.parser')
             products = flipkart_html.findAll('div', {"class": "_4rR01T"})
             Product_description = flipkart_html.findAll('ul', {"class": "_1xgFaf"})
