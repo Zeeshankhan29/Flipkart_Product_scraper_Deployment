@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>Result Page</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  {% if rows is none %}
+    <meta http-equiv="refresh" content="10" />
+  {% endif %}
+</head>
+
+<body>
+  <div class="table-users">
+   <div class="header">
+        <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+            <!-- <a href="/static/data.csv" download="{{data}}.csv">Download your search result </a> -->
+            </li>
+            <li class="nav-item">
+            <!-- <a class="nav-link" href="/dashboard/graph" ><b>Graphs</b></a> -->
+            <h3 style="color: #ffffffff ; padding-left: 700px;">Reviews</h3>
+            </li>
+        </ul>
+        </nav>
+
+   </div>
+      <table class="table table-striped" cellspacing="0" style="width:100%">
+        <thead>
+            <tr>
+                {% for title in titles %}
+                    <th>{{ title }}</th>
+                {% endfor %}
+            
+             </tr>
+        </thead>
+        <tbody>
+
+            {% if rows is not none %}
+            {% for review in rows %}
+            <tr>
+                {% for data in review %}
+                    <td>{{ data }}</td>
+                {% endfor %}
+                
+            
+            {% endfor %}
+            {% endif %}
+        </tbody>
+      </table>
+   </div>
+</body>
+</html>
