@@ -1,13 +1,9 @@
-# Flipkart_Product_scraper_Deployment
-ABOUT THE PROJECT As we all know that Extracting the Data is very much required for a Data Analyst to Analyse the Data and give useful INSIGHTS to the Client, where the Client could decide the way to Expand the Bussinees Exponentially
+ABOUT THE PROJECT- Flipkart Product Scraper (Web Scraping) 
+As we all know that Extracting the Data is very much required for a Data Analyst to Analyse the Dataand give useful INSIGHTS to the Client, where the Client could decide the way to Expand the BussineesExponentially Where do you think we get the Data from?? Here comes the Web Scraping.. Using the Python skills I have designed a Project where you could get the information of the Productfrom Multiple pages in Flipkart website and can be stored to Analyse further. FurtherMore the Html pages are been linked to my code. Ultimately the code is Deployed to HerokuCloud platform so that anyone could access my work with the Url mentioned below. 
 
-Where do you think we get the Data from?? Here comes the Web Scraping..
+Deployment to Heroku, https://lnkd.in/dCcCn6T8 
 
-Using the Python skills I have designed a Project where you could get the information of the Product from Multiple pages in Flipkart website and can be stored to Analyse further.
+Github link, https://lnkd.in/dCUTfsM9
 
-FurtherMore the Html pages are been linked to my code.
-Ultimately the code is Deployed to Heroku Cloud platform so that anyone could access my work with the Url mentioned below.
-
-https://flipkartproductscraper.herokuapp.com/
-
-
+#python #pythonprogramming #pythonlearning #dataanalysis #dataextraction 
+#dataanalytics#datamodeling #businessanalysis #businessanalytics #deployment #heroku
